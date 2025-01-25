@@ -1,0 +1,233 @@
+[
+    {
+        "product_id": 1,
+        "product_title": "Dell XPS 13",
+        "product_image": "https://example.com/images/dell-xps13.jpg",
+        "category": "Laptops",
+        "price": 999.99,
+        "description": "A sleek and powerful laptop with a stunning display.",
+        "Specification": ["13.3-inch display", "Intel Core i7", "16GB RAM", "512GB SSD"],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 2,
+        "product_title": "HP Spectre x360",
+        "product_image": "https://example.com/images/hp-spectre.jpg",
+        "category": "Laptops",
+        "price": 1249.99,
+        "description": "A convertible laptop with a touch screen and elegant design.",
+        "Specification": ["14-inch touchscreen", "Intel Core i7", "16GB RAM", "1TB SSD"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 3,
+        "product_title": "Apple MacBook Pro 14",
+        "product_image": "https://example.com/images/macbook-pro-14.jpg",
+        "category": "Laptops",
+        "price": 1999.99,
+        "description": "The ultimate performance laptop for professionals.",
+        "Specification": ["14-inch Liquid Retina", "Apple M2 Pro", "16GB RAM", "512GB SSD"],
+        "availability": false,
+        "rating": 4.8
+      },
+      {
+        "product_id": 4,
+        "product_title": "Lenovo ThinkPad X1 Carbon",
+        "product_image": "https://example.com/images/lenovo-thinkpad.jpg",
+        "category": "Laptops",
+        "price": 1399.99,
+        "description": "A durable and lightweight laptop for business users.",
+        "Specification": ["14-inch display", "Intel Core i5", "16GB RAM", "256GB SSD"],
+        "availability": true,
+        "rating": 4.4
+      },
+      {
+        "product_id": 5,
+        "product_title": "ASUS ROG Zephyrus G14",
+        "product_image": "https://example.com/images/asus-rog.jpg",
+        "category": "Laptops",
+        "price": 1549.99,
+        "description": "A gaming laptop with excellent performance and portability.",
+        "Specification": ["14-inch QHD", "AMD Ryzen 9", "16GB RAM", "1TB SSD"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 6,
+        "product_title": "Microsoft Surface Laptop 5",
+        "product_image": "https://example.com/images/surface-laptop.jpg",
+        "category": "Laptops",
+        "price": 1299.99,
+        "description": "A stylish laptop with a premium build and great battery life.",
+        "Specification": ["13.5-inch touchscreen", "Intel Core i5", "8GB RAM", "256GB SSD"],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 7,
+        "product_title": "Samsung Galaxy S23 Ultra",
+        "product_image": "https://example.com/images/samsung-s23-ultra.jpg",
+        "category": "Phones",
+        "price": 1199.99,
+        "description": "A premium phone with an exceptional camera and display.",
+        "Specification": ["6.8-inch AMOLED", "Snapdragon 8 Gen 2", "12GB RAM", "512GB Storage"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 8,
+        "product_title": "Google Pixel 7 Pro",
+        "product_image": "https://example.com/images/google-pixel-7.jpg",
+        "category": "Phones",
+        "price": 899.99,
+        "description": "The ultimate Google phone with excellent photo capabilities.",
+        "Specification": ["6.7-inch OLED", "Google Tensor G2", "12GB RAM", "128GB Storage"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 9,
+        "product_title": "OnePlus 11",
+        "product_image": "https://example.com/images/oneplus-11.jpg",
+        "category": "Phones",
+        "price": 699.99,
+        "description": "A fast and reliable phone with a clean interface.",
+        "Specification": ["6.7-inch AMOLED", "Snapdragon 8 Gen 2", "8GB RAM", "256GB Storage"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 10,
+        "product_title": "Anker PowerCore 20000",
+        "product_image": "https://example.com/images/anker-powercore.jpg",
+        "category": "Accessories",
+        "price": 49.99,
+        "description": "A high-capacity power bank for charging multiple devices.",
+        "Specification": ["20,000mAh", "Dual USB Output", "Fast Charging"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 11,
+        "product_title": "Logitech MX Master 3",
+        "product_image": "https://example.com/images/logitech-mx.jpg",
+        "category": "Accessories",
+        "price": 99.99,
+        "description": "An ergonomic mouse with customizable buttons.",
+        "Specification": ["Ergonomic Design", "USB-C Rechargeable", "Bluetooth & USB Receiver"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 12,
+        "product_title": "Razer Kraken X",
+        "product_image": "https://example.com/images/razer-kraken.jpg",
+        "category": "Accessories",
+        "price": 49.99,
+        "description": "A lightweight gaming headset with 7.1 surround sound.",
+        "Specification": ["7.1 Surround Sound", "Ultra-Lightweight", "Adjustable Mic"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 13,
+        "product_title": "Apple Watch Series 8",
+        "product_image": "https://example.com/images/apple-watch-8.jpg",
+        "category": "Smart Watches",
+        "price": 399.99,
+        "description": "A premium smartwatch with advanced health monitoring features.",
+        "Specification": ["Always-On Display", "Heart Rate Monitor", "GPS", "Water Resistant"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 14,
+        "product_title": "Samsung Galaxy Watch 6",
+        "product_image": "https://example.com/images/samsung-watch-6.jpg",
+        "category": "Smart Watches",
+        "price": 349.99,
+        "description": "A stylish smartwatch with powerful fitness tracking features.",
+        "Specification": ["AMOLED Display", "Sleep Tracking", "ECG Monitoring", "5ATM Water Resistant"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 15,
+        "product_title": "Garmin Fenix 7",
+        "product_image": "https://example.com/images/garmin-fenix-7.jpg",
+        "category": "Smart Watches",
+        "price": 699.99,
+        "description": "A rugged smartwatch for outdoor adventurers.",
+        "Specification": ["Solar Charging", "GPS", "Pulse Ox Sensor", "Water Resistant"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 16,
+        "product_title": "MacBook Air M2",
+        "product_image": "https://example.com/images/macbook-air-m2.jpg",
+        "category": "MacBook",
+        "price": 1199.99,
+        "description": "The lightest MacBook with incredible performance.",
+        "Specification": ["13.6-inch Liquid Retina", "Apple M2", "8GB RAM", "256GB SSD"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 17,
+        "product_title": "MacBook Pro 16",
+        "product_image": "https://example.com/images/macbook-pro-16.jpg",
+        "category": "MacBook",
+        "price": 2499.99,
+        "description": "A powerful MacBook for professionals who need performance.",
+        "Specification": ["16-inch Liquid Retina", "Apple M2 Max", "32GB RAM", "1TB SSD"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 18,
+        "product_title": "MacBook Pro 13",
+        "product_image": "https://example.com/images/macbook-pro-13.jpg",
+        "category": "MacBook",
+        "price": 1399.99,
+        "description": "A compact MacBook with the power of the M2 chip.",
+        "Specification": ["13-inch Retina Display", "Apple M2", "8GB RAM", "512GB SSD"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 19,
+        "product_title": "iPhone 14 Pro Max",
+        "product_image": "https://example.com/images/iphone-14-pro-max.jpg",
+        "category": "Iphone",
+        "price": 1199.99,
+        "description": "A cutting-edge phone with ProMotion technology.",
+        "Specification": ["6.7-inch OLED", "A16 Bionic", "48MP Camera", "Dynamic Island"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 20,
+        "product_title": "iPhone 13 Mini",
+        "product_image": "https://example.com/images/iphone-13-mini.jpg",
+        "category": "Iphone",
+        "price": 699.99,
+        "description": "A compact phone with powerful features.",
+        "Specification": ["5.4-inch OLED", "A15 Bionic", "12MP Camera", "Face ID"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 21,
+        "product_title": "iPhone SE 3rd Gen",
+        "product_image": "https://example.com/images/iphone-se.jpg",
+        "category": "Iphone",
+        "price": 429.99,
+        "description": "A budget-friendly phone with the power of the A15 chip.",
+        "Specification": ["4.7-inch LCD", "A15 Bionic", "12MP Camera", "Touch ID"],
+        "availability": true,
+        "rating": 4.6
+      }
+]
