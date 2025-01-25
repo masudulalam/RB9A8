@@ -16,8 +16,8 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      <div className="absolute top-90 left-33 max-w-5xl">
-        <img className="rounded-2xl" src="/src/assets/banner.jpg" alt="" />
+      <div className="absolute top-90 max-w-5xl flex items-center justify-center">
+        <img className="rounded-2xl h-[530px]" src="/src/assets/banner.jpg" alt="" />
       </div>
     </div>
   );
