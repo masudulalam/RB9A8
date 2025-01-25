@@ -1,3 +1,4 @@
+import bannerImage from '../../../src/assets/banner.jpg'
 const Banner = () => {
   return (
     <div className="hero bg-[#9538E2] rounded-2xl pt-28 pb-64 relative">
@@ -17,7 +18,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="absolute top-90 max-w-5xl flex items-center justify-center">
-        <img className="rounded-2xl h-[530px]" src="/src/assets/banner.jpg" alt="" />
+        <img className="rounded-2xl h-[530px]" src={bannerImage} alt="banner image" />
       </div>
     </div>
   );
