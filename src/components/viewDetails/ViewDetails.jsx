@@ -34,6 +34,7 @@ const ViewDetails = () => {
   // handle add to wishlist 
   const handleAddToWishList = (gadget) => {
     addWishList(gadget);
+    setIsWishList(true);
   }
   
 
@@ -48,7 +49,7 @@ const ViewDetails = () => {
           <img
             className="rounded-2xl"
             src={product_image}
-            alt="{product_title}"
+            alt={product_title}
           />
         </div>
         <div className="w-2xl">
