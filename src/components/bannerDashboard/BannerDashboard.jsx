@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Heading from "../heading/Heading";
 
 
@@ -14,12 +15,16 @@ const BannerDashboard = () => {
             }
           />
           <div className="mb-8">
-            <button className="btn bg-[#9538E2] text-white text-lg font-bold rounded-3xl px-16 mr-6">
-              Cart
-            </button>
-            <button className="btn bg-[#9538E2] text-white text-lg font-bold rounded-3xl px-16">
-              Wishlist
-            </button>
+            <NavLink to='/dashboard'>
+              <button className="btn bg-[#9538E2] text-white text-lg font-bold rounded-3xl px-16 mr-6">
+                Cart
+              </button>
+            </NavLink>
+            <NavLink to='/wishlist'>
+              <button className="btn bg-[#9538E2] text-white text-lg font-bold rounded-3xl px-16">
+                Wishlist
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>

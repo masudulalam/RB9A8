@@ -1,5 +1,13 @@
+import { useNavigate } from 'react-router-dom';
 import bannerImage from '../../../src/assets/banner.jpg'
+
 const Banner = () => {
+
+  const navigate = useNavigate();
+  const handleShowDashboard = () => {
+    navigate('/dashboard');
+  }
+
   return (
     <div className="hero bg-[#9538E2] rounded-2xl pt-28 pb-64 relative">
       <div className="hero-content text-center">
@@ -12,7 +20,7 @@ const Banner = () => {
             next level. From smart devices to the coolest accessories, we have
             it all!
           </p>
-          <button className="btn btn-primary rounded-4xl bg-white text-[#9538E2]">
+          <button onClick={handleShowDashboard} className="btn btn-primary text-xl font-bold px-7 py-4 rounded-4xl bg-white text-[#9538E2]">
             Shop Now
           </button>
         </div>

@@ -1,11 +1,14 @@
+import toast from "react-hot-toast";
+
 // add a gadget to local storage
 const addToCart = (gadget) => {
     const cart = getAllCart();
     const isExist = cart.find(item => item.product_id === gadget.product_id)
-    if(isExist) return alert('Already Exist!');
+    if(isExist) return toast.error('Already added to cart!');
 
     cart.push(gadget);
     localStorage.setItem('cart', JSON.stringify(cart));
+    toast.success('Successfully added to cart!');
 }
 
 // get all gadget from local storage

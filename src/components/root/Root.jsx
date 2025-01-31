@@ -1,11 +1,13 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../footer/Footer";
 import Navbar from "../navbar/Navbar";
+import { Toaster } from 'react-hot-toast';
 
 
 const Root = () => {
     return (
         <div className="max-w-7xl mx-auto"> 
+            <Toaster />
             {/* Navbar */}
             <Navbar />
             {/* Dynamic Section */}
