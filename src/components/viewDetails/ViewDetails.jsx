@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import Heading from "../heading/Heading";
-import { addToCart } from "../../utilities";
+import { addToCart, getAllCart } from "../../utilities";
 
 const ViewDetails = () => {
   const allGadgetData = useLoaderData();
