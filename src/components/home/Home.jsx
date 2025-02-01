@@ -7,11 +7,11 @@ const Home = () => {
   const categories = useLoaderData();
   
   return (
-    <div className="mb-96">
+    <div className="mb-24">
       {/* Banner */}
       <Banner />
       <Heading2 />
-      <div className="flex gap-6 mt-[490px]">
+      <div className="flex gap-6 mt-12">
         {/* CategoriesSidebar */}
         <div className="flex  gap-6">
           <div>

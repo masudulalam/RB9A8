@@ -40,11 +40,13 @@ const ViewDetails = () => {
 
   return (
     <div>
-      <Heading
-        title="Product Details"
-        subtitle="Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!"
-      />
-      <div className="flex gap-6 shadow-2xl p-8 rounded-3xl mt-8 mb-24">
+      <div className="bg-[#9538E2] pt-8 pb-10 text-white">
+        <Heading
+          title="Product Details"
+          subtitle="Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!"
+        />
+      </div>
+      <div className="flex gap-6 shadow-2xl p-8 rounded-3xl mb-24">
         <div className="w-md">
           <img
             className="rounded-2xl"
