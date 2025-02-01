@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Card from "../card/Card";
 import { getAllWishList } from "../../utilities/wishlist";
+import CardWishlist from "../cardWishlist/CardWishlist";
 
 
 const WishListCard = () => {
@@ -14,7 +14,7 @@ const WishListCard = () => {
 
     return (
         <div>
-            {gadgets.map(gadget => <Card key={gadget.product_id} gadget={gadget} />)}
+            {gadgets.map(gadget => <CardWishlist key={gadget.product_id} gadget={gadget} />)}
         </div>
     );
 };

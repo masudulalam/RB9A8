@@ -1,7 +1,13 @@
+import { useState } from "react";
 
 
 const TotalCost = ({ gadgets }) => {
+
     const totalPrice = gadgets.reduce((sum, gadget) => sum + gadget.price, 0);
+
+    const [gadget, setGadget] = useState(gadgets);
+
+
     return (
         <div className="flex justify-between mb-8">
             <div>
