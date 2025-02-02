@@ -4,6 +4,11 @@ import Heading from "../heading/Heading";
 import { addToCart, getAllCart } from "../../utilities";
 import { addWishList, getAllWishList } from "../../utilities/wishlist";
 import toast from "react-hot-toast";
+import ReactStars from "react-rating-stars-component";
+import React from "react";
+import { render } from "react-dom";
+
+
 
 const ViewDetails = () => {
   const allGadgetData = useLoaderData();
@@ -24,7 +29,7 @@ const ViewDetails = () => {
     }
   }, [allGadgetData, product_id]);
 
-  const {product_title, product_image, price, description, Specification} = gadget;
+  const {product_title, product_image, price, description, Specification, rating} = gadget;
 
   // handle add to cart button
   const handleAddToCart = (gadget) => {
@@ -35,7 +40,11 @@ const ViewDetails = () => {
   const handleAddToWishList = (gadget) => {
     addWishList(gadget);
     setIsWishList(true);
-  }
+  };
+
+  const ratingChanged = (newRating) => {
+    console.log(newRating);
+  };
   
 
   return (
@@ -76,6 +85,16 @@ const ViewDetails = () => {
             )}
           </ol>
           <p className="text-lg font-bold my-4">Rating:</p>
+          <div className="flex gap-4 mb-4">
+            <p>
+              <ReactStars
+              count={5}
+              onChange={ratingChanged}
+              size={24}
+              activeColor="#ffd700"/>
+            </p>
+            <button className="btn rounded-2xl">{rating}</button>
+          </div>
           <button onClick={() => handleAddToCart(gadget)} className="btn bg-[#9538E2] text-white text-lg font-bold rounded-3xl">
             Add To Cart
           </button>
