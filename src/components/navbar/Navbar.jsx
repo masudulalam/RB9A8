@@ -1,4 +1,6 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import { BsCart2 } from "react-icons/bs";
+import { IoHeartOutline } from "react-icons/io5";
 
 
 const Navbar = () => {
@@ -42,8 +44,13 @@ const Navbar = () => {
             {links}
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end space-x-3">
+        <div className="border rounded-4xl p-2">
+          <Link to="/dashboard"><BsCart2 /></Link>
+        </div>
+        <div className="border rounded-4xl p-2">
+          <Link to="/wishlist"><IoHeartOutline /></Link>
+        </div>
       </div>
     </div>
   );
