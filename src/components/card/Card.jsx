@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const Card = ({ gadget }) => {
     const {product_image, product_title, description, price} = gadget;
@@ -15,5 +15,9 @@ const Card = ({ gadget }) => {
         </div>
     );
 };
+
+Card.propTypes = {
+    gadget: PropTypes.object,
+}
 
 export default Card;

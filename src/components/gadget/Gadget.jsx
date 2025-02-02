@@ -28,7 +28,7 @@ const Gadget = ({ gadget }) => {
 };
 
 Gadget.propTypes = {
-  gadgetsData: PropTypes.object,
+  gadget: PropTypes.object,
 };
 
 export default Gadget;

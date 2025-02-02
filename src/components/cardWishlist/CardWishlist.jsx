@@ -1,5 +1,5 @@
 import { addToCart } from "../../utilities";
-
+import PropTypes from 'prop-types';
 
 const CardWishlist = ({ gadget }) => {
 
@@ -26,5 +26,9 @@ const CardWishlist = ({ gadget }) => {
         </div>
     );
 };
+
+CardWishlist.propTypes = {
+    gadget: PropTypes.object,
+}
 
 export default CardWishlist;

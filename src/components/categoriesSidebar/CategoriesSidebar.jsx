@@ -1,4 +1,5 @@
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 
 const CategoriesSidebar = ({ categories }) => {
@@ -11,5 +12,9 @@ const CategoriesSidebar = ({ categories }) => {
         </div>
     );
 };
+
+CategoriesSidebar.propTypes = {
+    categories: PropTypes.object,
+}
 
 export default CategoriesSidebar;
